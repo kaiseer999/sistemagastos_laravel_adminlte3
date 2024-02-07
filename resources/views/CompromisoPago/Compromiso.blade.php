@@ -3,10 +3,14 @@
 @section('title', 'Compromisos de pago')
 
 @section('content_header')
-<h1 class="m-0 text-dark">Compromisos de pago</h1>
+<h1 class="m-0 text-dark">Compromisos deff pago</h1>
 @stop
 
 @section('content')
+
+
+<x-adminlte-button label="Open Modal" data-toggle="modal" data-target="#modalPurple" class="bg-purple"/>
+
 <div class="card">
     <div class="card-body">
         @php
